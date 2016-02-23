@@ -1,0 +1,77 @@
+.vr-bs{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-user-select:none;
+}
+.vr-bs .vr-box{
+  top:0;
+  left:0;
+  width:100%;
+  min-height:100%;
+  max-height:100%;
+  position:absolute;
+  border:0;
+}
+.box-bg{
+  background-color:rgba(0,0,0,0);
+}
+.vr-fw{
+
+}
+.vr-box .vr-h{
+  position: relative;
+}
+.vr-h{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  height:3em;
+}
+.body{
+  height:100%;
+  padding:0;
+  margin:0;
+  display:block;
+  font-size:32px;
+}
+.div{
+  outline:0 !important;
+  -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  position:relative;
+}
+.bs{
+  display:-webkit-box !important;
+  display:box !important;
+  position:relative;
+}
+.bs-ac{
+  -webkit-box-align:center;
+  box-align:center;
+}
+.bs-ver{
+  display:-webkit-box:vertical;
+  box-orient:vertical;
+}
+.bs-pc{
+  -webkit-box-pack:center;
+  box-pack:center;
+
+}
+.bs-f1{
+  position: relative;
+  -webkit-box-flex:1;
+  box-flex:1;
+}
+text-l{
+  text-align: left
+}
+text-r{
+  text-align: right;
+}
+text-c{
+  text-align: center;
+}
